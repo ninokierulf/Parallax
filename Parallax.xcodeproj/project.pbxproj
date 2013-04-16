@@ -11,14 +11,18 @@
 		67D3535E171BA44F00BE2A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D3535D171BA44F00BE2A4A /* Foundation.framework */; };
 		67D35360171BA44F00BE2A4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D3535F171BA44F00BE2A4A /* CoreGraphics.framework */; };
 		67D35366171BA44F00BE2A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67D35364171BA44F00BE2A4A /* InfoPlist.strings */; };
-		67D35368171BA44F00BE2A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D35367171BA44F00BE2A4A /* main.m */; };
-		67D3536C171BA44F00BE2A4A /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3536B171BA44F00BE2A4A /* NKAppDelegate.m */; };
+		67D35368171BA44F00BE2A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D35367171BA44F00BE2A4A /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		67D3536C171BA44F00BE2A4A /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3536B171BA44F00BE2A4A /* NKAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		67D3536E171BA44F00BE2A4A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D3536D171BA44F00BE2A4A /* Default.png */; };
 		67D35370171BA44F00BE2A4A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D3536F171BA44F00BE2A4A /* Default@2x.png */; };
 		67D35372171BA44F00BE2A4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D35371171BA44F00BE2A4A /* Default-568h@2x.png */; };
 		67D35375171BA44F00BE2A4A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D35373171BA44F00BE2A4A /* MainStoryboard_iPhone.storyboard */; };
 		67D35378171BA44F00BE2A4A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D35376171BA44F00BE2A4A /* MainStoryboard_iPad.storyboard */; };
-		67D3537B171BA44F00BE2A4A /* NKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3537A171BA44F00BE2A4A /* NKViewController.m */; };
+		67D3537B171BA44F00BE2A4A /* NKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3537A171BA44F00BE2A4A /* NKViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		67D35384171BAC8500BE2A4A /* NKParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D35383171BAC8400BE2A4A /* NKParallaxViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		67D35387171BE6E800BE2A4A /* NKParallaxScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D35386171BE6E800BE2A4A /* NKParallaxScrollView.m */; };
+		67D3538A171BF1FC00BE2A4A /* NKTestingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D35389171BF1FC00BE2A4A /* NKTestingDataSource.m */; };
+		67D3538F171BFC7100BE2A4A /* NKFirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3538D171BFC7100BE2A4A /* NKFirstPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,15 @@
 		67D35377171BA44F00BE2A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		67D35379171BA44F00BE2A4A /* NKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKViewController.h; sourceTree = "<group>"; };
 		67D3537A171BA44F00BE2A4A /* NKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKViewController.m; sourceTree = "<group>"; };
+		67D35381171BA51300BE2A4A /* NKParallaxDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKParallaxDataSource.h; sourceTree = "<group>"; };
+		67D35382171BAC8400BE2A4A /* NKParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKParallaxViewController.h; sourceTree = "<group>"; };
+		67D35383171BAC8400BE2A4A /* NKParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKParallaxViewController.m; sourceTree = "<group>"; };
+		67D35385171BE6E800BE2A4A /* NKParallaxScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKParallaxScrollView.h; sourceTree = "<group>"; };
+		67D35386171BE6E800BE2A4A /* NKParallaxScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKParallaxScrollView.m; sourceTree = "<group>"; };
+		67D35388171BF1FC00BE2A4A /* NKTestingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTestingDataSource.h; sourceTree = "<group>"; };
+		67D35389171BF1FC00BE2A4A /* NKTestingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTestingDataSource.m; sourceTree = "<group>"; };
+		67D3538C171BFC7100BE2A4A /* NKFirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFirstPageViewController.h; sourceTree = "<group>"; };
+		67D3538D171BFC7100BE2A4A /* NKFirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFirstPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +104,12 @@
 				67D35376171BA44F00BE2A4A /* MainStoryboard_iPad.storyboard */,
 				67D35379171BA44F00BE2A4A /* NKViewController.h */,
 				67D3537A171BA44F00BE2A4A /* NKViewController.m */,
+				67D35381171BA51300BE2A4A /* NKParallaxDataSource.h */,
+				67D35382171BAC8400BE2A4A /* NKParallaxViewController.h */,
+				67D35383171BAC8400BE2A4A /* NKParallaxViewController.m */,
+				67D35385171BE6E800BE2A4A /* NKParallaxScrollView.h */,
+				67D35386171BE6E800BE2A4A /* NKParallaxScrollView.m */,
+				67D3538B171BFC4800BE2A4A /* Trial */,
 				67D35362171BA44F00BE2A4A /* Supporting Files */,
 			);
 			path = Parallax;
@@ -108,6 +127,17 @@
 				67D35371171BA44F00BE2A4A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67D3538B171BFC4800BE2A4A /* Trial */ = {
+			isa = PBXGroup;
+			children = (
+				67D35388171BF1FC00BE2A4A /* NKTestingDataSource.h */,
+				67D35389171BF1FC00BE2A4A /* NKTestingDataSource.m */,
+				67D3538C171BFC7100BE2A4A /* NKFirstPageViewController.h */,
+				67D3538D171BFC7100BE2A4A /* NKFirstPageViewController.m */,
+			);
+			name = Trial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +211,10 @@
 				67D35368171BA44F00BE2A4A /* main.m in Sources */,
 				67D3536C171BA44F00BE2A4A /* NKAppDelegate.m in Sources */,
 				67D3537B171BA44F00BE2A4A /* NKViewController.m in Sources */,
+				67D35384171BAC8500BE2A4A /* NKParallaxViewController.m in Sources */,
+				67D35387171BE6E800BE2A4A /* NKParallaxScrollView.m in Sources */,
+				67D3538A171BF1FC00BE2A4A /* NKTestingDataSource.m in Sources */,
+				67D3538F171BFC7100BE2A4A /* NKFirstPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +309,7 @@
 		67D3537F171BA44F00BE2A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
 				INFOPLIST_FILE = "Parallax/Parallax-Info.plist";
@@ -286,6 +321,7 @@
 		67D35380171BA44F00BE2A4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
 				INFOPLIST_FILE = "Parallax/Parallax-Info.plist";
